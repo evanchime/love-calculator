@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { GitDataProvider } from '../../providers/git-data/git-data';
 
 @Component({
   selector: 'page-about',
@@ -8,7 +7,7 @@ import { GitDataProvider } from '../../providers/git-data/git-data';
 })
 export class AboutPage {
 
-  constructor(public navCtrl: NavController, public gitService: GitDataProvider) {
+  constructor(public navCtrl: NavController) {
 
   }
 
